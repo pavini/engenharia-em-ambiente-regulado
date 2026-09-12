@@ -94,6 +94,27 @@ alternativa é ter um buraco exatamente no trecho que interessa.
 Vale a regra prática: **se o dado influenciou a decisão, ele pertence à trilha,
 mesmo que tenha entrado por um canal que não é seu.**
 
+## A outra escolha
+
+Três bifurcações aparecem sempre aqui, e a resposta muda com o contexto.
+
+**Trilha na mesma base ou separada.** Separar ganha em volume, em retenção
+própria e em impedir que a aplicação alcance o registro. Manter junto ganha em
+consistência transacional: o evento e a mudança commitam juntos, ou nenhum dos
+dois acontece. Com volume baixo e time pequeno, trilha na mesma base, em tabela
+com permissão restrita, é melhor do que trilha separada que ninguém mantém.
+
+**Escrita síncrona ou por fila.** Fila tira latência do caminho crítico e cria
+a chance de o evento se perder. Em ambiente regulado, evento que pode sumir
+derruba a premissa inteira. Síncrono por padrão, e fila só com entrega durável
+e confirmação de gravação, nunca com envio e esquecimento.
+
+**Encadeamento por hash ou armazenamento imutável do provedor.** O
+armazenamento com retenção travada é mais simples e transfere a prova para o
+fornecedor. O hash é seu e funciona em qualquer lugar, inclusive depois de uma
+migração de nuvem. Se você já paga pelo primeiro, use, e guarde o hash assim
+mesmo: custa uma coluna e sobrevive à troca de fornecedor.
+
 ## O teste
 
 Pegue uma operação real, de uns seis meses atrás, e tente responder sozinho,
