@@ -89,6 +89,7 @@ Guardar tudo pra sempre parece a opção segura e não é. Aumenta superfície d
 vazamento, aumenta custo, e coloca você em desacordo com a própria política
 que escreveu. Dado que passou do prazo e não foi eliminado é um achado de
 auditoria como qualquer outro.
+
 ## Onde isso continua
 
 Retenção define por quanto tempo o dado fica. Os capítulos seguintes tratam de
