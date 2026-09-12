@@ -21,6 +21,10 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 
 ## Capítulos
 
+Se quiser ver o conjunto antes de escolher por onde entrar, comece pelo
+[mapa](capitulos/00-o-mapa.md): ele mostra o que sustenta o quê e o que ainda
+dá para decidir depois.
+
 - [1. Por que isso chega em você tarde demais](capitulos/01-por-que-chega-tarde.md)
 - [2. Trilha de auditoria de verdade](capitulos/02-trilha-de-auditoria.md)
 - [3. Retenção, e o conflito com a LGPD](capitulos/03-retencao.md)
@@ -30,11 +34,12 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 - [7. Fornecedores e terceiros](capitulos/07-fornecedores-e-terceiros.md)
 - [8. LGPD para quem escreve backend](capitulos/08-lgpd-no-backend.md)
 - [9. IA no time, e o dado que sai com ela](capitulos/09-ia-e-dado-pessoal.md)
+- [10. A conversa com quem paga](capitulos/10-a-conversa-com-quem-paga.md)
 - [Checklist: se a auditoria bater amanhã](capitulos/99-checklist.md)
 
-O escopo que eu tinha em mente está coberto, e o capítulo 9 saiu de uma conversa
-depois. O que vier vem assim: se você viu algo que não está aqui, ou discorda do
-que está, abre uma issue.
+O escopo que eu tinha em mente está coberto. Os dois últimos capítulos saíram de
+conversa depois, e o que vier vem assim: se você viu algo que não está aqui, ou
+discorda do que está, abre uma issue.
 
 ## O que este repositório não é
 
