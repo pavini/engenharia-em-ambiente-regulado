@@ -94,9 +94,24 @@ Marque honestamente. "Mais ou menos" conta como não.
 ## Terceiros
 
 - [ ] Existe lista dos fornecedores que tocam dado de cliente.
+- [ ] Existe também a lista dos que conseguem parar a operação, mesmo sem
+      tocar dado.
+- [ ] A lista da engenharia foi comparada com a de contratos do financeiro.
 - [ ] Para cada um, existe contrato com cláusula de tratamento de dado.
+- [ ] Log, telemetria e rastreamento de erro enviados a terceiro passam por
+      máscara aplicada na origem, e existe teste que falha se ela quebrar.
+- [ ] Amostra ou dump enviado ao fornecedor para análise segue as mesmas
+      regras do dado original.
 - [ ] Acesso de consultoria ao código e ao ambiente é nominal, temporário
       e revogado ao fim.
+- [ ] Nenhum acesso de fornecedor de projeto encerrado continua ativo.
+- [ ] O contrato do fornecedor crítico diz em quanto tempo e por qual canal
+      ele avisa um incidente.
+- [ ] Existe evidência periódica do fornecedor, como relatório de auditoria
+      independente ou certificação, e alguém a recebe.
+- [ ] Você já extraiu seus dados de lá uma vez, e sabe o que sai e o que
+      não sai.
+- [ ] Os subcontratados que tocam o seu dado são conhecidos.
 
 ## A pergunta final
 
