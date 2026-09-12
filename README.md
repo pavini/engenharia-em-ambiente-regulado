@@ -25,9 +25,10 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 - [2. Trilha de auditoria de verdade](capitulos/02-trilha-de-auditoria.md)
 - [3. Retenção, e o conflito com a LGPD](capitulos/03-retencao.md)
 - [4. Segregação de acesso](capitulos/04-segregacao-de-acesso.md)
+- [5. Mudança em produção](capitulos/05-mudanca-em-producao.md)
 - [Checklist: se a auditoria bater amanhã](capitulos/99-checklist.md)
 
-Em andamento: mudança em produção, continuidade e DR, LGPD para quem escreve
+Em andamento, nesta ordem: continuidade e recuperação, LGPD para quem escreve
 backend, fornecedores e terceiros.
 
 ## O que este repositório não é
