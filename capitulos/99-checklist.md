@@ -51,9 +51,21 @@ Marque honestamente. "Mais ou menos" conta como não.
 
 ## Mudança
 
+- [ ] Existe a lista dos caminhos por onde produção muda: publicação, script,
+      feature flag, parâmetro de negócio e o próprio pipeline.
 - [ ] Todo deploy em produção é rastreável até o commit e até quem aprovou.
 - [ ] Mudança direta em banco de produção é exceção registrada, não rotina.
 - [ ] Existe registro de quem executou script em produção, quando e por quê.
+- [ ] Correção de dado por script aparece também na trilha das operações
+      que ela afetou.
+- [ ] Ligar ou desligar feature flag em produção fica registrado, com quem
+      e quando.
+- [ ] Parâmetro de negócio editável em tela tem trilha com valor anterior
+      e autor.
+- [ ] Alteração no pipeline de publicação passa por revisão de outra pessoa.
+- [ ] Já houve reversão de verdade, e havia como voltar sem restaurar backup.
+- [ ] Não existe dado real de cliente em ambiente que não seja produção, ou
+      ele está mascarado.
 
 ## Continuidade
 
