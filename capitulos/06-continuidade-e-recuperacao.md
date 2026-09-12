@@ -145,6 +145,25 @@ que precisa aparecer na trilha do [capítulo 2](02-trilha-de-auditoria.md),
 identificada como reprocessamento, pelo mesmo motivo da correção por script no
 [capítulo 5](05-mudanca-em-producao.md).
 
+## A outra escolha
+
+**Réplica ou backup.** Réplica protege contra perda de máquina e não protege
+contra erro: o comando que apagou a tabela chega replicado em segundos. Ela
+resolve disponibilidade e não substitui backup. Quem tem só réplica costuma
+achar que tem os dois.
+
+**Ambiente de recuperação de pé ou reconstruído na hora.** Manter ambiente
+parado custa dinheiro todo mês e entrega tempo de recuperação curto.
+Reconstruir sob demanda é barato e transforma o tempo de recuperação numa
+promessa que depende de tudo funcionar no pior dia. A escolha é direta: se o
+tempo prometido for curto, não existe versão barata.
+
+**Teste completo anual ou parcial rotativo.** O teste completo é o que produz o
+número que a auditoria compara com o papel, e é caro. O parcial, restaurando um
+sistema por trimestre, encontra mais defeitos ao longo do ano porque acontece
+mais vezes. O arranjo que funciona é um completo por ano para medir, e parciais
+no meio para achar.
+
 ## O teste
 
 Mesma lógica dos capítulos anteriores:
