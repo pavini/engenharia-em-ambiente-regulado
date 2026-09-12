@@ -113,6 +113,29 @@ Marque honestamente. "Mais ou menos" conta como não.
       não sai.
 - [ ] Os subcontratados que tocam o seu dado são conhecidos.
 
+## Dado pessoal
+
+- [ ] Existe o mapa de onde o dado pessoal está, mantido perto do código e
+      não num documento separado.
+- [ ] Cada campo com dado pessoal tem finalidade e base legal registradas.
+- [ ] A base legal é por finalidade, então retirar consentimento de marketing
+      não derruba o dado que sustenta o contrato.
+- [ ] Campo de texto livre que pode receber dado pessoal tem decisão
+      explícita sobre como é tratado.
+- [ ] Compartilhamento com terceiro é registrado por titular, com quem e
+      quando, e dá para responder com nomes e datas.
+- [ ] A exportação para portabilidade já foi feita uma vez e o resultado é
+      utilizável.
+- [ ] Os endpoints devolvem só os campos que a tela usa.
+- [ ] A eliminação alcança índice de busca, cache, fila, log, telemetria e
+      ambiente de teste, não só a tabela principal.
+- [ ] Existe decisão escrita sobre o que impede um dado eliminado de voltar
+      a ser tratado depois de uma restauração.
+- [ ] Num acesso indevido, dá para dizer quais titulares, quais campos e em
+      qual janela.
+- [ ] O prazo de resposta ao titular foi levantado com o jurídico antes de
+      chegar o primeiro pedido.
+
 ## A pergunta final
 
 Pegue uma operação real de seis meses atrás e reconstrua a história dela
