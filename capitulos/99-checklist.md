@@ -136,6 +136,26 @@ Marque honestamente. "Mais ou menos" conta como não.
 - [ ] O prazo de resposta ao titular foi levantado com o jurídico antes de
       chegar o primeiro pedido.
 
+## IA
+
+- [ ] Existe a lista das ferramentas de IA em uso no time, e ela foi feita
+      perguntando, não supondo.
+- [ ] Para cada uma, você sabe o prazo de retenção do fornecedor e se o
+      conteúdo enviado é usado para treinamento.
+- [ ] Existe ferramenta corporativa bancada, para o time não precisar usar
+      conta pessoal em plano gratuito.
+- [ ] O prompt montado pelo sistema passa pela mesma máscara do resto do que
+      sai para terceiro, com teste que falha se vazar.
+- [ ] A chamada ao modelo está no inventário de fornecedores e no mapa de
+      dado pessoal, incluindo a transferência internacional.
+- [ ] A trilha guarda prompt enviado, resposta recebida, versão exata do
+      modelo e parâmetros.
+- [ ] Dá para listar quais decisões sobre clientes foram automatizadas.
+- [ ] Existe caminho de revisão humana registrado, e a taxa de divergência
+      entre modelo e decisão final é conhecida.
+- [ ] O texto dos prompts de produção vive no repositório e passa por revisão
+      como qualquer código.
+
 ## A pergunta final
 
 Pegue uma operação real de seis meses atrás e reconstrua a história dela
