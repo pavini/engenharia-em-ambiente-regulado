@@ -148,6 +148,26 @@ versão, e a mudança dele entra na lista de mudanças em produção. O mesmo va
 para ligar um recurso de IA por feature flag, que é mudança em produção pelas
 regras do capítulo 5.
 
+## A outra escolha
+
+**Modelo de terceiro ou hospedado por você.** Hospedar resolve transferência
+internacional, retenção e subprocessador de uma vez, e custa infraestrutura,
+gente e uma qualidade normalmente menor. Para uso interno de apoio, quase
+sempre não compensa. Para tratamento em escala de dado sensível, começa a
+compensar, e a conta muda rápido conforme o volume sobe.
+
+**Guardar a resposta inteira ou só um resumo.** A resposta inteira é a única
+coisa que reconstrói a decisão, e ocupa espaço que cresce depressa. O resumo
+economiza e não serve de evidência. O meio-termo defensável é guardar inteiro
+onde a saída influenciou decisão sobre o cliente, e descartar o resto com prazo
+curto, o que é a lógica de categorias do [capítulo 3](03-retencao.md).
+
+**Revisão humana em tudo ou por faixa de risco.** Revisar todas as decisões não
+escala e produz a confirmação automática que já foi descrita aqui. Revisar por
+faixa, com o caso de maior impacto sempre passando por gente e o restante por
+amostragem, é mais honesto e mais defensável, desde que a faixa esteja escrita
+e a amostragem seja de verdade.
+
 ## O teste
 
 1. Liste as ferramentas de IA em uso no time hoje. Quantas passaram por
