@@ -160,6 +160,25 @@ Curto, e vale para toda chamada a serviço externo:
   pergunta sobre o que o aprovador estava vendo na hora.
 - O registro dessa chamada não pode conter o que a seção 2 manda mascarar.
 
+## A outra escolha
+
+**Mascarar ou não enviar.** Mascarar preserva a capacidade de diagnosticar e
+depende de a máscara estar certa para sempre. Não enviar o corpo da requisição
+elimina o risco e custa tempo de investigação em cada incidente. Para o campo
+que nunca ajuda a depurar, e documento é o caso clássico, não enviar é a
+escolha melhor, porque não depende de configuração nenhuma continuar correta.
+
+**Um fornecedor ou dois.** Dois reduzem concentração e multiplicam contrato,
+integração, custo e superfície de acesso ao seu dado. Para quase tudo, um só
+com saída testada é melhor. A exceção é a dependência que para a operação
+inteira, onde vale ter o segundo caminho pronto mesmo sem uso.
+
+**Serviço gerenciado ou hospedado por você.** Hospedar a ferramenta de
+observabilidade resolve transferência, retenção e subprocessador de uma vez, e
+te dá mais um sistema para operar, com backup, atualização e acesso próprios.
+Compensa quando o volume de dado sensível é alto e o time tem folga. Na maioria
+dos casos, o gerenciado com máscara na origem sai melhor.
+
 ## O teste
 
 1. Liste os fornecedores que tocam dado de cliente. Compare com a lista de
