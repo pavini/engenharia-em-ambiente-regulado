@@ -1,0 +1,46 @@
+name: Discordo, ou achei um erro
+description: Algo que está escrito está errado, impreciso, ou você vê de outro jeito
+title: "[Correção] "
+body:
+  - type: dropdown
+    id: onde
+    attributes:
+      label: Onde
+      options:
+        - "README"
+        - "1. Por que isso chega em você tarde demais"
+        - "2. Trilha de auditoria de verdade"
+        - "3. Retenção, e o conflito com a LGPD"
+        - "4. Segregação de acesso"
+        - "5. Mudança em produção"
+        - "6. Continuidade e recuperação"
+        - "7. Fornecedores e terceiros"
+        - "8. LGPD para quem escreve backend"
+        - "9. IA no time, e o dado que sai com ela"
+        - "Checklist"
+    validations:
+      required: true
+
+  - type: textarea
+    id: trecho
+    attributes:
+      label: Trecho
+      description: Copie o pedaço a que você se refere.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que está errado, ou por que você vê de outro jeito
+      description: Se for questão de regulação, diga de qual setor você está falando, porque a exigência muda.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que você colocaria no lugar
+      description: Opcional.
+    validations:
+      required: false
