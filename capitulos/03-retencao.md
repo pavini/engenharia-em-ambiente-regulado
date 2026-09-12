@@ -90,6 +90,24 @@ vazamento, aumenta custo, e coloca você em desacordo com a própria política
 que escreveu. Dado que passou do prazo e não foi eliminado é um achado de
 auditoria como qualquer outro.
 
+## A outra escolha
+
+**Apagar de verdade ou marcar como apagado.** Marcação lógica é mais barata,
+preserva integridade referencial e não é eliminação. Onde a obrigação é
+eliminar, ela não cumpre. Serve como etapa intermediária, com data de expurgo
+físico marcada, e nunca como destino final.
+
+**Política única ou por categoria.** Uma regra só para tudo é muito mais fácil
+de operar e sempre erra para um dos dois lados: ou você guarda demais e aumenta
+exposição, ou apaga o que era obrigatório reter. A política por categoria custa
+uma conversa com o jurídico e paga o resto da vida do sistema.
+
+**Expurgo ou anonimização.** Anonimizar deixa você com o agregado e tira o
+risco, e é o caminho certo para dado de comportamento. Só que anonimização mal
+feita é pior que retenção, porque você declara que o dado não identifica
+ninguém enquanto ele ainda identifica. Se não há quem valide a reidentificação,
+apagar é mais honesto.
+
 ## Onde isso continua
 
 Retenção define por quanto tempo o dado fica. Os capítulos seguintes tratam de
