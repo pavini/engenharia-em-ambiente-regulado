@@ -42,12 +42,29 @@ Marque honestamente. "Mais ou menos" conta como não.
 ## Acesso
 
 - [ ] Acesso a produção é nominal. Não existe conta compartilhada.
+- [ ] Conta de serviço tem responsável humano registrado, motivo escrito
+      e escopo definido.
+- [ ] A permissão tem histórico, e não só estado atual: dá para dizer quem
+      tinha acesso a quê numa data passada, e quem concedeu.
 - [ ] Quem aprova não é quem executa, e o sistema impede, não apenas
       desencoraja.
+- [ ] A regra de segregação está no servidor, não só na interface, e existe
+      teste que falha se ela for removida.
+- [ ] Quem aprova não consegue alterar sozinho a tabela de alçada nem a
+      lista de aprovadores.
 - [ ] Acesso de suporte a dado de cliente é registrado e tem justificativa.
+- [ ] A justificativa é texto que a pessoa escreveu, não opção de lista.
+- [ ] A consulta a dado de cliente exige identificar o cliente antes, em vez
+      de navegar por uma lista aberta.
+- [ ] Exportação é registrada como ação própria, com filtro aplicado,
+      contagem e colunas levadas.
+- [ ] Existe caminho de acesso de emergência que não depende de aprovação
+      prévia, gera alerta na hora e rotaciona a credencial depois do uso.
+- [ ] Todo uso de acesso de emergência tem revisão posterior registrada.
 - [ ] Existe revisão periódica de quem tem acesso a quê, com evidência
       da revisão.
-- [ ] Desligamento revoga acesso no mesmo dia, e há como provar isso.
+- [ ] Desligamento revoga acesso no mesmo dia, e há como provar isso,
+      inclusive nos sistemas secundários.
 
 ## Mudança
 
