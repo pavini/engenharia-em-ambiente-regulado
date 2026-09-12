@@ -89,3 +89,17 @@ Guardar tudo pra sempre parece a opção segura e não é. Aumenta superfície d
 vazamento, aumenta custo, e coloca você em desacordo com a própria política
 que escreveu. Dado que passou do prazo e não foi eliminado é um achado de
 auditoria como qualquer outro.
+## Onde isso continua
+
+Retenção define por quanto tempo o dado fica. Os capítulos seguintes tratam de
+quem pode chegar nele nesse meio tempo, e do que acontece com ele quando o
+sistema muda ou para.
+
+O [capítulo 4](04-segregacao-de-acesso.md) é sobre acesso, e é ele que sustenta
+a trilha do [capítulo 2](02-trilha-de-auditoria.md). O
+[capítulo 8](08-lgpd-no-backend.md) volta à LGPD pelo lado do código, com o
+resto do que não coube aqui: mapa de dado pessoal, base legal por finalidade e
+os direitos do titular como funcionalidade.
+
+Se você quer o recorte rápido antes disso, a seção de retenção do
+[checklist](99-checklist.md) tem os itens para percorrer com o time.
