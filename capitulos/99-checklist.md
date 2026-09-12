@@ -76,6 +76,20 @@ Marque honestamente. "Mais ou menos" conta como não.
       no papel.
 - [ ] Backup já foi restaurado alguma vez. Backup nunca restaurado é
       hipótese, não backup.
+- [ ] Existe a lista do que precisa existir para o sistema voltar, e ela
+      já foi comparada com o que o backup cobre.
+- [ ] Arquivo, fila, segredo, certificado e configuração feita no console
+      estão cobertos, não só o banco.
+- [ ] Dá para recuperar um registro ou documento sem restaurar a base
+      inteira.
+- [ ] Está escrito o que o sistema faz quando a dependência externa cai:
+      recusa a operação ou aceita e reprocessa depois.
+- [ ] Incidente gera registro com hora da ocorrência, hora da detecção,
+      hora do retorno e o que se perdeu.
+- [ ] O prazo de comunicação a cliente e a regulador foi levantado com o
+      jurídico antes de precisar dele.
+- [ ] Reprocessamento é idempotente, e aparece na trilha identificado
+      como reprocessamento.
 
 ## Terceiros
 
