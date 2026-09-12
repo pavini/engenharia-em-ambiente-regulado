@@ -174,6 +174,25 @@ regras de acesso da original enquanto ela tiver dado real.
 
 Isso encosta direto na LGPD, que é um capítulo próprio mais à frente.
 
+## A outra escolha
+
+**Migração em três passos ou janela de indisponibilidade.** Os três passos dão
+reversão sem tocar no banco, e custam mais publicações e um período com o
+esquema duplicado. A janela é mais simples e exige um horário em que a operação
+pode parar. Se o seu sistema tem madrugada sem movimento e o time é pequeno, a
+janela é uma escolha legítima, desde que ensaiada.
+
+**Flag em painel ou no código.** O painel existe para mudar em segundos, e é
+isso que o torna perigoso. O código passa por revisão e publicação, e é isso
+que o torna lento. A divisão que funciona: o que altera comportamento visual ou
+liga funcionalidade fica no painel com trilha; o que tem efeito financeiro ou
+regulatório fica no código.
+
+**Script revisado ou tela de correção.** Script é mais rápido para o caso
+único. Quando o mesmo tipo de correção aparece pela terceira vez, construir a
+tela sai mais barato e resolve de vez, porque a tela já nasce com autor,
+justificativa e trilha, sem depender de ninguém lembrar do procedimento.
+
 ## O teste
 
 Mesma lógica dos capítulos anteriores. Tente responder sozinho:
