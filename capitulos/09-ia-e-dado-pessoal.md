@@ -1,16 +1,20 @@
 # 9. IA no time, e o dado que sai com ela
 
-Quando eu fiz o inventário de fornecedores do
-[capítulo 7](07-fornecedores-e-terceiros.md) olhando para o meu próprio time, a
-parte que mais me surpreendeu não foi o agregador de log. Foi a quantidade de
-ferramenta de IA que já estava em uso sem ter passado por lugar nenhum.
-Assistente no editor de cada pessoa, extensão no navegador, um serviço de
-transcrição que entrava nas reuniões, e um fluxo interno que alguém montou
-chamando uma API de modelo.
+Este capítulo é diferente dos outros. Os anteriores saíram de pergunta que eu já
+vi chegar. Essa ainda não: em nenhuma das auditorias que eu acompanhei alguém
+perguntou sobre uso de IA. Estou escrevendo porque ela vem, e porque o que ela
+vai encontrar já está acontecendo hoje.
 
-Nada disso tinha sido escondido. Entrou como entra qualquer ferramenta de
-produtividade, pelo caminho mais curto, porque resolvia um problema real no
-mesmo dia.
+Pegue o inventário de fornecedores do
+[capítulo 7](07-fornecedores-e-terceiros.md) e faça a mesma lista olhando para
+as ferramentas de IA em uso no seu time. Assistente no editor de cada pessoa,
+extensão no navegador, serviço que transcreve reunião, algum fluxo interno
+chamando uma API de modelo. Compare com o que passou por contrato ou por
+avaliação.
+
+A diferença entre as duas listas não existe porque alguém escondeu. Essas
+ferramentas entram como entra qualquer coisa de produtividade, pelo caminho
+mais curto, porque resolvem um problema real no mesmo dia.
 
 O erro que eu vejo com mais frequência nessa conversa é tratar tudo isso como
 um assunto só. São três usos diferentes, com riscos diferentes e com respostas
