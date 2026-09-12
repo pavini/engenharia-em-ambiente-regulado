@@ -1,0 +1,64 @@
+name: Vi isso na prática
+description: Você passou por auditoria e viu algo que não está no repositório
+title: "[Prática] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Um pedido antes de escrever: não identifique empresa, cliente ou
+        operação. O repositório segue essa regra e as issues também. Conte o
+        caso de um jeito que ninguém consiga dizer de onde ele veio.
+
+  - type: input
+    id: setor
+    attributes:
+      label: Setor
+      description: Só para dar contexto. Pode ser genérico.
+      placeholder: crédito, meios de pagamento, seguros, saúde, outro
+    validations:
+      required: false
+
+  - type: textarea
+    id: pedido
+    attributes:
+      label: O que pediram
+      description: A pergunta ou a exigência que chegou, do jeito que chegou.
+    validations:
+      required: true
+
+  - type: textarea
+    id: faltou
+    attributes:
+      label: O que faltava no sistema
+      description: O que vocês descobriram que não dava para responder.
+    validations:
+      required: true
+
+  - type: textarea
+    id: resolucao
+    attributes:
+      label: O que resolveu
+      description: Opcional. Se vocês corrigiram, o que foi feito e quanto tempo levou.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: capitulo
+    attributes:
+      label: Capítulo mais próximo
+      description: Opcional. Onde isso encaixaria melhor.
+      multiple: true
+      options:
+        - "1. Por que isso chega em você tarde demais"
+        - "2. Trilha de auditoria de verdade"
+        - "3. Retenção, e o conflito com a LGPD"
+        - "4. Segregação de acesso"
+        - "5. Mudança em produção"
+        - "6. Continuidade e recuperação"
+        - "7. Fornecedores e terceiros"
+        - "8. LGPD para quem escreve backend"
+        - "9. IA no time, e o dado que sai com ela"
+        - "Checklist"
+        - "Não encaixa em nenhum, é assunto novo"
+    validations:
+      required: false
