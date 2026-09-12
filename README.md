@@ -24,10 +24,11 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 - [1. Por que isso chega em você tarde demais](capitulos/01-por-que-chega-tarde.md)
 - [2. Trilha de auditoria de verdade](capitulos/02-trilha-de-auditoria.md)
 - [3. Retenção, e o conflito com a LGPD](capitulos/03-retencao.md)
+- [4. Segregação de acesso](capitulos/04-segregacao-de-acesso.md)
 - [Checklist: se a auditoria bater amanhã](capitulos/99-checklist.md)
 
-Em andamento: segregação de acesso, mudança em produção, continuidade e DR,
-LGPD para quem escreve backend, fornecedores e terceiros.
+Em andamento: mudança em produção, continuidade e DR, LGPD para quem escreve
+backend, fornecedores e terceiros.
 
 ## O que este repositório não é
 
