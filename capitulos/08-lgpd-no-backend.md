@@ -151,6 +151,27 @@ obriga a tratar o caso pelo pior cenário e comunicar a base inteira.
 O prazo de comunicação e para quem comunicar são assunto do jurídico, e a hora
 de levantar isso continua sendo antes.
 
+## A outra escolha
+
+**Mapa no código ou documento mantido pelo encarregado.** O documento é mais
+fácil de começar e desatualiza na primeira sprint. O mapa junto do código exige
+disciplina do time e é o único que sobrevive, porque quebra quando alguém
+esquece. Se o documento for inevitável, gere o documento a partir do código, e
+nunca ao contrário.
+
+**Expurgo ou criptografia por titular.** Guardar o dado de cada titular cifrado
+com chave própria e descartar a chave resolve o problema do backup, que é o
+mais difícil deste capítulo, e cria gestão de chave por pessoa, com todos os
+problemas de rotação e de recuperação. Vale considerar quando pedido de
+eliminação é rotina e o backup é longo. Para volume baixo, o expurgo simples
+continua ganhando.
+
+**Endpoint de portabilidade ou exportação manual.** Enquanto o pedido é raro,
+um procedimento manual bem documentado atende dentro do prazo e custa quase
+nada. O endpoint passa a compensar quando o volume cresce ou quando o prazo
+começa a apertar, e a hora de construir é antes disso, não depois do primeiro
+atraso.
+
 ## O teste
 
 1. Liste todos os lugares onde o dado de um cliente específico existe hoje.
