@@ -171,6 +171,26 @@ montar planilha na mão na véspera. Quando a revisão de acesso sai de uma
 consulta e vem com data, autor e resultado, essa parte da auditoria deixa de
 consumir semanas do time.
 
+## A outra escolha
+
+**Justificativa em toda consulta ou só fora do padrão.** Em operação de volume
+alto, exigir texto em cada consulta produz preenchimento automático e ruído que
+ninguém lê. A alternativa é exigir justificativa em acesso fora do padrão, como
+conta sem chamado vinculado ou volume acima do normal, e alertar sobre o resto.
+Ganha quando o suporte atende milhares de casos por dia. Perde quando o volume
+é baixo, porque aí o texto obrigatório é barato e vale mais.
+
+**Credencial selada ou elevação temporária aprovada.** A credencial que se
+quebra o lacre funciona quando o plantão é de uma pessoa. Se o plantão sempre
+tem duas, a elevação aprovada pelo outro plantonista é melhor: mesmo efeito,
+com segregação preservada no momento mais sensível.
+
+**Segregação no código ou em motor de fluxo.** Implementar a regra no serviço é
+direto e fica junto do que ela protege. Um motor de fluxo centraliza e facilita
+auditar, ao custo de mais uma peça na arquitetura e de a regra viver longe do
+código. Com poucas regras, no serviço. Com dezenas, e alçada que muda por
+produto, o motor começa a compensar.
+
 ## O teste
 
 Mesma lógica do capítulo 2. Pegue casos reais e tente responder sozinho, só com
