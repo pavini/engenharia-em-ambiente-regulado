@@ -29,10 +29,12 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 - [6. Continuidade e recuperação](capitulos/06-continuidade-e-recuperacao.md)
 - [7. Fornecedores e terceiros](capitulos/07-fornecedores-e-terceiros.md)
 - [8. LGPD para quem escreve backend](capitulos/08-lgpd-no-backend.md)
+- [9. IA no time, e o dado que sai com ela](capitulos/09-ia-e-dado-pessoal.md)
 - [Checklist: se a auditoria bater amanhã](capitulos/99-checklist.md)
 
-O escopo que eu tinha em mente está coberto. O que vier depois vem de discussão:
-se você viu algo que não está aqui, ou discorda do que está, abre uma issue.
+O escopo que eu tinha em mente está coberto, e o capítulo 9 saiu de uma conversa
+depois. O que vier vem assim: se você viu algo que não está aqui, ou discorda do
+que está, abre uma issue.
 
 ## O que este repositório não é
 
