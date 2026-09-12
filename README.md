@@ -26,10 +26,11 @@ Este repositório é essa versão. Vai crescer conforme eu for escrevendo.
 - [3. Retenção, e o conflito com a LGPD](capitulos/03-retencao.md)
 - [4. Segregação de acesso](capitulos/04-segregacao-de-acesso.md)
 - [5. Mudança em produção](capitulos/05-mudanca-em-producao.md)
+- [6. Continuidade e recuperação](capitulos/06-continuidade-e-recuperacao.md)
 - [Checklist: se a auditoria bater amanhã](capitulos/99-checklist.md)
 
-Em andamento, nesta ordem: continuidade e recuperação, LGPD para quem escreve
-backend, fornecedores e terceiros.
+Em andamento, nesta ordem: fornecedores e terceiros, LGPD para quem escreve
+backend.
 
 ## O que este repositório não é
 
